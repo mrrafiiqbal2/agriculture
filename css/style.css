@@ -1,0 +1,882 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: sans-serif;
+	font-size: 16px;
+	line-height: 1.7em;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: serif;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.header{
+	width: 100%;
+	background: black;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link{
+	color: white;
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: capitalize;
+	margin: 0px 0px 0px 20px;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link:hover{
+	background: transparent;
+	color: red;
+	transition: 1s;
+}
+.header .navbar-brand{
+	width: 100px;
+	height: 100px;
+
+}
+.header .btn{
+ margin: 0px 0px 0px 5px; 
+}
+.header .btn-success{
+	color: black;
+	background: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	border: 1px solid transparent;
+	border-radius: 1px;
+}
+.header .btn-success:hover{
+	color: red;
+	background: black;
+	transition: 1s;
+}
+/*banner start*/
+.banner{
+	padding: 180px 0px;
+	background: url("../images/banbg.jpg") center top no-repeat;
+	background-size: cover;
+}
+.banner .title{
+	padding: 10px 0px;
+	margin: 0px 0px 0px 400px;
+}
+.banner .title h1{
+	text-transform: uppercase;
+	font-size: 32px;
+	font-weight: bold;
+	color: black;
+	line-height: 1.3em;
+}
+.banner .title p{
+	padding: 30px 0px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+	line-height: 1.3em;
+}
+.banner .banner-btn{
+	margin: 0px 0px 0px 400px;
+}
+.banner .banner-btn .btn-success{
+	background: yellow;
+	color: red;
+	padding: 10px;
+	margin: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.banner .banner-btn .btn-success:hover{
+	background: black;
+	color: white;
+	transition: 1s;
+}
+/*banner end*/
+
+/*another banner start*/
+
+.another-banner{
+	padding: 40px 0px;
+   background: #141D2C;
+
+}
+.quality{
+	padding: 10px 0px;
+	text-align: center;
+	background: transparent;
+}
+.quality .icon .fa{
+	font-size: 56px;
+}
+.quality .title h1{
+    padding: 20px 0px;
+    text-transform: uppercase;
+	font-size: 32px;
+	font-weight: bold;
+	color: white;
+	line-height: 1.3em;
+	background: url("../images/line.png") center bottom no-repeat;
+	background-size: auto;
+}
+.quality .title p{
+	padding: 30px 0px;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 400;
+	color: white;
+	line-height: 1.3em;
+
+}
+.quality h3{
+	text-align: left;
+    text-transform: uppercase;
+	font-size: 32px;
+	font-weight: bold;
+	color: white;
+	line-height: 1.3em;
+}
+.quality h5{
+	text-align: left;
+	padding: 20px 0px;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 300;
+	color: white;
+	line-height: 1.3em;
+
+}
+.quality h2{
+	text-align: right;
+    text-transform: uppercase;
+	font-size: 35px;
+	font-weight: bold;
+	color: white ;
+	line-height: 1.3em;
+}
+.quality h4{
+	text-align: right;
+	padding: 20px 0px;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 300;
+	color:white ;
+	line-height: 1.3em;
+
+}
+.quality .btn-1{
+	text-align: left;
+}
+.quality .btn-success{
+	border: 1px solid transparent;
+	border-radius: 1px;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	background: black;
+}
+.quality .btn-success:hover{
+	background: black;
+	color: red;
+	transition: 1s;
+}
+.quality .btn-2{
+	text-align: right;
+}
+.quality .fa{
+	font-size: 42px;
+	color: white;
+}
+
+
+/*another banner end*/
+
+/*about part start*/
+.about{
+	width: 100%;
+	padding: 80px 0px;
+}
+.about .fa{
+	font-size: 52px;
+}
+.about-farm{
+	text-align: center;
+	margin: 0px 0px 0px 150px;
+}
+.about-farm .title h1{
+    padding: 20px 0px;
+    text-transform: uppercase;
+	font-size: 32px;
+	font-weight: bold;
+	color: black;
+	line-height: 1.3em;
+	background: url("../images/line.png") center bottom no-repeat;
+	background-size: auto;
+}
+.about-farm .title p{
+    padding: 30px 0px;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 400;
+	color: black;
+	line-height: 1.3em;
+}
+.about-farm-text{
+	text-align: center;
+	margin: 0px 0px 0px 150px;
+}
+.about-farm-text p{
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+	line-height: 1.3em;
+	margin: 0px 0px 0px 40px;
+}
+.about-farm-text h6{
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+	line-height: 1.3em;
+	margin: 0px 40px 0px 0px;
+}
+.about-icon{
+	width: 100%;
+	padding: 80px 0px;
+	text-align: center;
+	margin: 0px 0px 0px 300px;
+
+}
+.about-icon .fa{
+	padding: 20px 0px;
+	font-size: 46px;
+	font-weight: bold;
+
+}
+.about-icon .title h3{
+	color: green;
+  font-size: 42px;
+  font-weight: bold;
+  color: black;
+}
+.about-icon .title h4{
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+	text-transform: uppercase;
+}
+/*.supply part start*/
+.supply{
+	width: 100%;
+	padding: 80px 0px;
+	background: #eee;
+}
+.supply-heading{
+	text-align: center;
+	margin: 0px 0px 0px 150px;
+}
+.supply-heading .icon .fa{
+	font-size: 42px;
+	padding: 10px 0px;
+}
+.supply-heading .title h1{
+    padding: 20px 0px;
+    text-transform: uppercase;
+	font-size: 32px;
+	font-weight: bold;
+	color: black;
+	line-height: 1.3em;
+	background: url("../images/line.png") center bottom no-repeat;
+	background-size: auto;
+}
+.supply-heading .title p{
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+	line-height: 1.3em;
+	margin: 0px 0px 0px 40px;
+}
+.supply-card{
+	padding: 40px 0px;
+	text-align: center;
+	margin: 0px 0px 0px 350px;
+}
+.supply-card-1{
+	padding: 20px 0px;
+	background: white;
+}
+.supply-card-2{
+	padding: 20px 0px;
+	background: #7AB355;
+}
+.supply-card-3{
+	padding: 20px 0px;
+	background: #141D2C;
+}
+.supply-card-1 .title h2{
+	padding: 20px 0px;
+    text-transform: uppercase;
+	font-size: 25px;
+	font-weight: bold;
+	color: black;
+	line-height: 1.3em;
+	margin-right: 50px;
+}
+
+.supply-card-1 .title p{
+	text-align: left;
+    font-size: 16px;
+	font-weight: bold;
+	color: black;
+	line-height: 1.3em;
+	
+}
+.supply-card-1 .sup-btn{
+	text-align: left;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.supply-card-2 .title h2{
+	margin-right: 50px;
+	padding: 10px 0px;
+    text-transform: uppercase;
+	font-size: 25px;
+	font-weight: bold;
+	color: black;
+	line-height: 1.3em;
+}
+
+.supply-card-2 .title p{
+	text-align: left;
+	padding: 10px 0px;
+    font-size: 16px;
+	font-weight: bold;
+	color: black;
+	line-height: 1.3em;
+	
+}
+.supply-card-2 .sup-btn{
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: left;
+}
+.supply-card-3 .title h2{
+	margin-right: 50px;
+	padding: 10px 0px;
+    text-transform: uppercase;
+	font-size: 25px;
+	font-weight: bold;
+	color: white;
+	line-height: 1.3em;
+}
+
+.supply-card-3 .title p{
+	text-align: left;
+	padding: 10px 0px;
+    font-size: 16px;
+	font-weight: bold;
+	color: white;
+	line-height: 1.3em;
+	
+}
+.supply-card-3 .sup-btn{
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: left;
+}
+/*supply part end*/
+
+
+/*statement part start*/
+.statement{
+	width: 100%;
+	padding: 40px 0px;
+}
+.state-img{
+	padding: 50px 0px;
+/*	margin: 0px 0px 0px 600px;*/
+	
+}
+.statement .title{
+	text-align: center;
+	padding: 80px 0px;
+	margin: 0px 0px 0px 600px;
+		
+}
+.statement .title h1{
+    margin-right: 50px;
+    padding: 10px 0px;
+    text-transform: uppercase;
+	font-size: 32px;
+	font-weight: bold;
+	color: black;
+	line-height: 1.3em;
+	
+}
+.statement .title h4{
+	margin-right: 40px;
+   padding: 10px 0px;
+    font-size: 20px;
+	font-weight: 500;
+	color: black;
+	text-transform: uppercase;
+}
+.statement .title p{
+	margin-right: 20px;
+	padding: 10px 0px;
+    font-size: 10px;
+	font-weight: bold;
+	color: black;
+	line-height: 1.3em;
+}
+
+.statement .btn-success{
+       margin-right: 250px;
+       background: black;
+       color: white;
+       text-transform: uppercase;
+       font-weight: bold;
+       border: 1px solid transparent;
+       border-radius: 1px;
+}
+.statement .btn-success:hover{
+	background: red;
+	color: white;
+	transition: 1s;
+}
+.statement-2{
+	width: 100%;
+	padding: 10px 0px;
+}
+.statement-2 .ttle-1{
+	text-align: center;
+}
+.statement-3{
+	width: 100%;
+	padding: 10px 0px;
+	text-align: center;
+	margin: 0px 0px 0px 350px;
+}
+.statement-3 h2{
+	margin-right: 10px;
+    padding: 10px 0px;
+    text-transform: uppercase;
+	font-size: 32px;
+	font-weight: bold;
+	color: black;
+	line-height: 1.3em;
+}
+.statement-3 p{
+	margin-right: 10px;
+	padding: 10px 0px;
+    font-size: 13px;
+	font-weight: bold;
+	color: black;
+	line-height: 1.3em;
+}
+.statement-2{
+	width: 100%;
+	padding: 100px 0px;
+	margin: 0px 0px 0px 300px;
+	background: url("../images/cffe.jpg") center top no-repeat;
+	background-size: cover;
+}
+.statement-2 h2{
+	text-align: center;
+    padding: 10px 0px;
+    text-transform: uppercase;
+	font-size: 32px;
+	font-weight: bold;
+	color: white;
+	line-height: 1.3em;
+}
+.new-state-img{
+	padding: 10px 0px;
+	width: 100%;
+	margin: 0px 0px 0px 300px;
+}
+/*statement part end*/
+
+/*feedback start*/
+.feedback{
+	width: 100%;
+	padding: 80px 0px;
+}
+.feedback .title{
+	text-align: center;
+	margin: 0px 0px 0px 100px;
+}
+.feedback .title h1{
+    padding: 20px 0px;
+    text-transform: uppercase;
+	font-size: 32px;
+	font-weight: bold;
+	color: black;
+	line-height: 1.3em;
+	background: url("../images/line.png") center bottom no-repeat;
+	background-size: auto;
+}
+.feedback .title p{
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+	line-height: 1.3em;
+	margin: 0px 0px 0px 40px;
+}
+.feedback-card{
+	padding: 40px 0px;
+	text-align: center;
+	margin: 0px 0px 0px 350px;
+}
+.feedback-card-1{
+	padding: 30px 0px;
+	background:#141D2C;
+}
+.feedback-card-2{
+	padding: 20px 0px;
+	background: #141D2C;
+}
+.feedback-card-3{
+	padding: 30px 0px;
+	background: #141D2C;
+}
+.feedback-card-1 .fa{
+	padding: 20px 0px;
+	font-size: 36px;
+	color: white;
+	margin-right: 100%;
+}
+.feedback-card-2 .fa{
+	
+	padding: 20px 0px;
+	font-size: 36px;
+	color: white;
+	margin-right: 100%;
+
+}
+.feedback-card-3 .fa{
+	padding: 20px 0px;
+	font-size: 36px;
+	color: white;
+	margin-right: 100%;
+
+
+}
+
+.feedback-card-1 .title p{
+	text-align: left;
+    font-size: 16px;
+	font-weight: bold;
+	color: white;
+	
+}
+
+.feedback-card-2 .title p{
+	text-align: center;
+	text-align: left;
+	padding: 10px 0px;
+    font-size: 16px;
+	font-weight: bold;
+	color: white;
+	
+}
+
+
+.feedback-card-3 .title p{
+	text-align: left;*/
+	padding: 10px 0px;
+    font-size: 16px;
+	font-weight: bold;
+	color: white;
+	
+}
+.social{
+	width: 100%;
+	padding: 10px 0px;
+}
+.social .title-1{
+	text-align: center;
+	margin: 0px 0px 0px 340px;
+}
+.social .title-2{
+	text-align: center;
+	margin: 0px 0px 0px 130px;
+}
+.social .title-3{
+	text-align: center;
+	margin-right: 100px;
+}
+.social .title-1 h1{
+	font-size: 14px;
+	font-weight: bold;
+	color: black;
+	line-height: 1.2em;
+	text-transform: uppercase;
+}
+.social .title-2 h1{
+	font-size: 14px;
+	font-weight: bold;
+	color: black;
+	line-height: 1.2em;
+	text-transform: uppercase;
+}
+.social .title-3 h1{
+	font-size: 14px;
+	font-weight: bold;
+	color: black;
+	line-height: 1.2em;
+	text-transform: uppercase;
+}
+/*feedback end*/
+
+/*massage start*/
+.massage{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/images.jpeg") center top no-repeat;
+	background-size: cover;
+}
+.title-sms{
+	padding: 100px;
+	text-align: center;
+	
+}
+.mas-btn{
+	text-align: left;
+	margin: 0px 0px 0px 40px;
+
+}
+.title-sms h1{
+	margin: 0px 0px 0px 40px;
+	 padding: 20px 0px;
+    text-transform: uppercase;
+	font-size: 32px;
+	font-weight: bold;
+	color: red;
+	line-height: 1.3em;
+}
+.title-sms p{
+	margin: 0px 0px 0px 100px;
+	text-align: left;
+	padding: 20px 0px;
+    text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 500;
+	color: white;
+}
+.mas-btn .btn-success{
+	text-transform: uppercase;
+    margin: 0px 0px 0px 50px;
+	font-size: 16px;
+	font-weight: bold;
+	color: black;
+	background: transparent;
+	line-height: 1.2em;
+	letter-spacing: 1px;
+	border: 1px solid transparent;
+	border-radius: 1px;
+}
+
+.form-title{
+	padding: 5px 0px;
+
+}
+.form-title h1{
+    text-transform: uppercase;
+	font-size: 32px;
+	font-weight: bold;
+	color: red;
+	line-height: 1.3em;
+}
+.form-title p{
+    text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 500;
+	color: white;
+}
+.submit-btn .btn-success{
+	text-transform: uppercase;
+	background: transparent;
+	color: black;
+	border: 1px solid red;
+	border-radius: 1px;
+	letter-spacing: 1px;
+	transition: 1s;
+}
+.submit-btn p{
+	padding: 10px 0px;
+   text-transform: uppercase;
+    color: white;
+
+}
+/*massage end*/
+
+/*blog-post start*/
+.blog-post{
+	width: 100%;
+	padding: 80px 0px;
+}
+.blog-title{
+	text-align: center;
+	margin: 0px 0px 0px 300px;
+}
+.blog-title h1{
+	padding: 20px 0px;
+	background: url("../images/line.png") center bottom no-repeat;
+	background-size: auto;
+	text-transform: uppercase;
+	font-size: 32px;
+	font-weight: bold;
+	color: red;
+	line-height: 1.3em;
+}
+.blog-title p{
+    padding: 10px 0px;
+   text-transform: uppercase;
+    color: black;
+}
+.blog-post-img{
+		margin: 0px 0px 0px 300px;
+	padding: 10px 0px;
+	width: 100%;
+}
+.blog-post-text{
+	width: 100%;
+	margin: 0px 0px 0px 310px;
+}
+.blog-post-text h1{
+	text-transform: uppercase;
+	font-size: 32px;
+	font-weight: bold;
+	color: red;
+	line-height: 1.3em;
+}
+.blog-post-text span{
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+	color: black;
+	line-height: 1.3em;
+}
+.blog-post-text p{
+	 padding: 10px 0px;
+     text-transform: uppercase;
+    color: black;
+}
+.blog-post-text h5{
+    padding: 10px 0px;
+    text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+	color: black;
+	line-height: 1.3em;
+}
+/*blog-post-end*/
+
+/*footer part start*/
+.footer{
+	width: 100%;
+	padding: 40px 0px;
+	background: #141D2C;
+
+}
+.main-footer{
+	text-align: center;
+	margin: 0px 0px 0px 250px;
+}
+.logo-footer h5{
+	padding: 20px 0px;
+	text-transform: capitalize;
+	font-size: 32px;
+	font-weight: bold;
+	color: red;
+	letter-spacing: 2px;
+	line-height: 1.2em;
+}
+.logo-footer p{
+	font-size: 16px;
+	font-weight: bold;
+	 padding: 20px 0px;
+     text-transform: uppercase;
+    color: white;
+}
+.logo-footer h4{
+	font-size: 16px;
+	font-weight: bold;
+	padding: 10px 0px;
+     text-transform: uppercase;
+    color: white;
+}
+.logo-footer h3{
+	font-size: 16px;
+	font-weight: bold;
+	padding: 10px 0px;
+     text-transform: uppercase;
+    color: white;
+}
+.logo-footer h2{
+	font-size: 12px;
+	font-weight: bold;
+	padding: 10px 0px;
+     text-transform: uppercase;
+    color: white;
+}
+.footer .icon .fa{
+	font-size: 40px;
+	letter-spacing: 20px;
+
+}
+.list-menu{
+	width: 100%;
+	padding: 10px 0px;
+}
+.list-menu li{
+	padding: 10px 0px;
+	text-transform: uppercase;
+}
+ul li {
+	list-style: none;
+
+
+}
+ul a {
+    color: rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,1));
+    text-decoration: none;
+
+
+}
+ul li a{
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 1.2em;
+}
+ul li a:hover{
+	color: red;
+	background: transparent;
+	transition: 1s;
+}
+.footer .icon-1 .fa{
+	padding: 40px 0px;
+	font-size: 20px;
+	color: white;
+}
+.copyrights{
+text-align: center;
+padding: 80px 0px;
+background: black;
+color: white;
+}
+.copyrights a{
+	text-decoration: none;
+}
+/*footer part end*/
